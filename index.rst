@@ -1,9 +1,19 @@
-.. raw:: html
+... raw:: html
 
-    <!-- Navigation Bar -->
-    <div style="background-color:#222; padding:16px 0; position:sticky; top:0; z-index:1000; width:100%;">
+    <!-- Navigation Bar without black background -->
+    <div style="background-color:transparent; padding:16px 0; position:sticky; top:0; z-index:1000; width:100%;">
         <div style="max-width:960px; margin:auto; text-align:center;">
-            <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="color:#ffffff; background:#222; padding:12px 28px; font-size:16px; font-weight:bold; text-decoration:none; border-radius:6px; box-shadow:0 4px 6px rgba(0,0,0,0.1); display:inline-block; transition:all 0.3s;">
+            <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="
+                color:#ffffff;
+                background:#007bff;
+                padding:12px 28px;
+                font-size:16px;
+                font-weight:bold;
+                text-decoration:none;
+                border-radius:6px;
+                box-shadow:0 4px 6px rgba(0,0,0,0.1);
+                display:inline-block;
+                transition:all 0.3s;">
                 Explore More Products
             </a>
         </div>
