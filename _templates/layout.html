@@ -1,0 +1,13 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for Jamaica Blue Mountain Coffee #}
+
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+    <meta name="google-site-verification" content="SfOIuzL9bJTnG1s15n1tw8mrW8WlYZXf4LA0cdqffuM" />
+    <meta name="msvalidate.01" content="671DFC03B959E91643B7D7567E37E46A" />
+    <meta name="description" content="Discover the world’s premium Jamaica Blue Mountain Coffee. Learn about its rich flavor, brewing tips, top products, and why it is the favorite of coffee lovers globally." />
+    <meta name="keywords" content="Jamaica Blue Mountain Coffee, Blue Mountain Coffee products, best coffee beans, premium coffee, coffee brewing tips" />
+    <meta name="robots" content="index, follow" />
+    <title>Jamaica Blue Mountain Coffee – Premium Beans, Brewing Tips, and Products</title>
+    {{ super() }}
+{% endblock %}
