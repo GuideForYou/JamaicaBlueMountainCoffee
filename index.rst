@@ -89,7 +89,7 @@
     <!-- Sticky Top Navigation -->
     <div class="topbar">
       <div class="container topbar-inner">
-        <a class="brand" href="#top">Jamaica Blue Mountain Coffee</a>
+        <a class="brand" href="https://mamrebluecoffee.com/collections/mamre-blue-coffee">Jamaica Blue Mountain Coffee</a>
         <nav class="nav">
           <a href="https://mamrebluecoffee.com">About</a>
           <a href="https://mamrebluecoffee.com">Brewing</a>
@@ -212,7 +212,7 @@ Top Jamaica Blue Mountain Coffee Products
 
         <div class="footer-cta">
           <a class="btn btn-accent" href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" target="_blank" rel="noopener">🔗 View All Products</a>
-          <a class="btn btn-dark" href="https://mamrebluecoffee.com/pages/brewing-guide" target="_blank" rel="noopener">🔗 Coffee Brewing Tips</a>
+          <a class="btn btn-dark" href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" target="_blank" rel="noopener">🔗 Coffee Brewing Tips</a>
         </div>
       </div>
     </section>
