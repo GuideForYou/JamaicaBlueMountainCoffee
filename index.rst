@@ -1,33 +1,52 @@
 .. raw:: html
 
-    <!-- Navigation Bar with white background -->
-    <div style="background-color:#ffffff; padding:16px 0; position:sticky; top:0; z-index:1000; width:100%;">
-        <div style="max-width:960px; margin:auto; text-align:center;">
+    <!-- Top Navigation with Branded Button -->
+    <div style="
+        background-color: transparent;
+        padding: 16px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+    ">
+        <div style="max-width: 960px; margin: auto; text-align: center;">
             <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="
-                color:#ffffff;
-                background:#007bff;
-                padding:12px 28px;
-                font-size:16px;
-                font-weight:bold;
-                text-decoration:none;
-                border-radius:6px;
-                border:1px solid #007bff;
-                box-shadow:0 4px 6px rgba(0,0,0,0.1);
-                display:inline-block;
-                transition:all 0.3s;">
+                color: #ffffff;
+                background-color:#007bff;
+                padding: 14px 32px;
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+                display: inline-block;
+                transition: background-color 0.3s, transform 0.3s;
+            " onmouseover="this.style.backgroundColor='#2e4e76'; this.style.transform='scale(1.05)';"
+              onmouseout="this.style.backgroundColor='#173a67'; this.style.transform='scale(1)';">
                 Explore More Products
             </a>
         </div>
     </div>
-How to Enjoy Jamaica Blue Mountain Coffee Easily ?
+
+How to Enjoy Jamaica Blue Mountain Coffee Easily
 ================================================
 
 Discover the Rich Flavor, Brewing Tips, and Top Products
 
 .. raw:: html
 
-    <div style="text-align:center; margin-top:20px;">
-        <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="background-color:#28a745; color:#ffffff; padding:12px 28px; font-size:16px; font-weight:bold; text-decoration:none; border-radius:6px; box-shadow:0 4px 6px rgba(0,0,0,0.1); display:inline-block; margin:5px;">
+    <div style="text-align:center; margin-top:30px;">
+        <a href="https://mamrebluecoffee.com/pages/about-jamaica-blue-mountain-coffee" style="
+            background-color:#28a745;
+            color:#ffffff;
+            padding:12px 28px;
+            font-size:16px;
+            font-weight:bold;
+            text-decoration:none;
+            border-radius:6px;
+            box-shadow:0 4px 6px rgba(0,0,0,0.1);
+            display:inline-block;
+            margin:5px;">
             Learn About Jamaica Blue Mountain Coffee
         </a>
     </div>
@@ -57,7 +76,6 @@ How to Brew Jamaica Blue Mountain Coffee ?
 5. **Keep It Simple** – Avoid too much sugar or cream.  
 6. **Enjoy Fresh** – Serve immediately for best aroma and flavor.  
 
-
 .. _top-products:
 
 Top Jamaica Blue Mountain Coffee Products
@@ -85,13 +103,40 @@ The secret to the perfect cup? **Fresh beans, the right brewing method, and simp
 .. raw:: html
 
     <div style="text-align:center; margin-top:30px;">
-        <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="background-color:#28a745; color:#ffffff; padding:10px 24px; font-size:15px; font-weight:bold; text-decoration:none; border-radius:5px; margin:5px; display:inline-block;">
+        <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="
+            background-color:#28a745;
+            color:#ffffff;
+            padding:10px 24px;
+            font-size:15px;
+            font-weight:bold;
+            text-decoration:none;
+            border-radius:5px;
+            margin:5px;
+            display:inline-block;">
             🔗 Buy Jamaica Blue Mountain Coffee
         </a>
-        <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="background-color:#007bff; color:#ffffff; padding:10px 24px; font-size:15px; font-weight:bold; text-decoration:none; border-radius:5px; margin:5px; display:inline-block;">
+        <a href="https://mamrebluecoffee.com/pages/brewing-guide" style="
+            background-color:#173a67;
+            color:#ffffff;
+            padding:10px 24px;
+            font-size:15px;
+            font-weight:bold;
+            text-decoration:none;
+            border-radius:5px;
+            margin:5px;
+            display:inline-block;">
             🔗 Coffee Brewing Tips
         </a>
-        <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="background-color:#6c757d; color:#ffffff; padding:10px 24px; font-size:15px; font-weight:bold; text-decoration:none; border-radius:5px; margin:5px; display:inline-block;">
+        <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="
+            background-color:#6c757d;
+            color:#ffffff;
+            padding:10px 24px;
+            font-size:15px;
+            font-weight:bold;
+            text-decoration:none;
+            border-radius:5px;
+            margin:5px;
+            display:inline-block;">
             🔗 View All Products
         </a>
-    </div>  
+    </div>
