@@ -17,13 +17,20 @@
       .brand{font-weight:800;letter-spacing:.2px;color:var(--brand);text-decoration:none}
       .nav{display:flex;gap:14px;align-items:center}
       .nav a{color:var(--muted);text-decoration:none;font-weight:600}
-      .nav a:hover{color:var(--brand)}
+      /* don't let nav hover affect buttons */
+      .nav a:not(.btn):hover{color:var(--brand)}
+
+      /* Buttons */
       .btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:800;text-decoration:none;box-shadow:var(--shadow);transition:transform .2s ease,filter .2s ease}
       .btn:hover{transform:translateY(-1px);filter:brightness(.96)}
-      .btn-cta{background:var(--cta); color:#fff}
-      .btn-accent{background:var(--accent); color:#fff}
-      .btn-dark{background:var(--brand); color:#fff}
-      .btn-muted{background:#6c757d;color:#fff}
+      .btn-cta{background:var(--cta)}
+      .btn-accent{background:var(--accent)}
+      .btn-dark{background:var(--brand)}
+      .btn-muted{background:#6c757d}
+      /* keep button TEXT white in every state */
+      .btn, .btn:link, .btn:visited, .btn:hover, .btn:focus, .btn:focus-visible, .btn:active{
+        color:#fff !important; text-decoration:none !important;
+      }
 
       /* Hero (no hero image since you want only 3 product images) */
       .hero{padding:44px 0 6px}
@@ -84,9 +91,9 @@
       <div class="container topbar-inner">
         <a class="brand" href="#top">Jamaica Blue Mountain Coffee</a>
         <nav class="nav">
-          <a href="#what-is">About</a>
-          <a href="#brew">Brewing</a>
-          <a href="#top-products">Products</a>
+          <a href="https://mamrebluecoffee.com">About</a>
+          <a href="https://mamrebluecoffee.com">Brewing</a>
+          <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee">Products</a>
           <a class="btn btn-cta" href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" target="_blank" rel="noopener">Explore Products</a>
         </nav>
       </div>
@@ -103,8 +110,8 @@
           <h1>How to Enjoy Jamaica Blue Mountain Coffee Easily</h1>
           <p>Discover the rich flavor, brewing tips, and top products — without the fuss.</p>
           <div class="cta-row">
-            <a class="btn btn-accent" href="https://mamrebluecoffee.com/pages/about-jamaica-blue-mountain-coffee" target="_blank" rel="noopener">Learn About Jamaica Blue Mountain Coffee</a>
-            <a class="btn btn-dark" href="#top-products">Browse Top Picks</a>
+            <a class="btn btn-accent" href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" target="_blank" rel="noopener">Learn About Jamaica Blue Mountain Coffee</a>
+            <a class="btn btn-dark" href="https://mamrebluecoffee.com/collections/mamre-blue-coffee">Browse Top Picks</a>
           </div>
         </div>
       </div>
@@ -220,5 +227,6 @@ Final Thoughts
     <div class="backtotop">
       <a class="btn btn-muted" href="#top">↑ Back to Top</a>
     </div>
+
 
 
