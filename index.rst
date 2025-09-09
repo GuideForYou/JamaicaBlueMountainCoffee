@@ -1,16 +1,17 @@
-... raw:: html
+.. raw:: html
 
-    <!-- Navigation Bar without black background -->
-    <div style="background-color:transparent; padding:16px 0; position:sticky; top:0; z-index:1000; width:100%;">
+    <!-- Navigation Bar with white background -->
+    <div style="background-color:#ffffff; padding:16px 0; position:sticky; top:0; z-index:1000; width:100%;">
         <div style="max-width:960px; margin:auto; text-align:center;">
             <a href="https://mamrebluecoffee.com/collections/mamre-blue-coffee" style="
-                color:#ffffff;
-                background:#007bff;
+                color:#222222;
+                background:#ffffff;
                 padding:12px 28px;
                 font-size:16px;
                 font-weight:bold;
                 text-decoration:none;
                 border-radius:6px;
+                border:1px solid #ddd;
                 box-shadow:0 4px 6px rgba(0,0,0,0.1);
                 display:inline-block;
                 transition:all 0.3s;">
@@ -18,7 +19,6 @@
             </a>
         </div>
     </div>
-
 How to Enjoy Jamaica Blue Mountain Coffee Easily
 ================================================
 
